@@ -1,5 +1,4 @@
 import json
-import re
 from tkinter import *
 
 # Cargar la base de datos JSON
