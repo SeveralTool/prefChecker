@@ -25,14 +25,20 @@ def consultar_precio():
         precio = data['prefijos'][prefijo]['precio']
         pais = data['prefijos'][prefijo]['pais']
         ciudad = data['prefijos'][prefijo]['ciudad']
-        result.config(text=f'El prefijo: {prefijo}, es de {ciudad}, {pais}con un costo de ${precio} por minuto')
         # result.config(text={prefijo})
+        result.config(text=f'El prefijo: {prefijo}, es de {ciudad}, {pais}con un costo de ${precio} por minuto')
     else:
         result.config(text='El prefijo no está registrado en la base de datos')
+
+def del_input():
+    input.delete(0, END)
 
 # Boton
 btn_Set = Button(windows, text='Consultar', width=15, height=1, command=consultar_precio)
 btn_Set.grid(row=3, columnspan=50, padx=2, pady=2)
+# Boton para borrar input
+btn_Del = Button(windows, text='Borrar', width=15, height=1, command=del_input)
+btn_Del.grid(row=4, columnspan=50, padx=2, pady=2)
 
 # Label resultado
 result = Label(windows, text="", fg='red')
