@@ -1,0 +1,79 @@
+{
+    "prefijos": {
+        "011": {
+            "ciudad": "Buenos Aires",
+            "pais": "Argentina",
+            "precio": 0.1
+        },
+        "212": {
+            "ciudad": "Caracas",
+            "pais": "Venezuela",
+            "precio": 0.15
+        },
+        "786": {
+            "ciudad": "Miami",
+            "pais": "Estados Unidos",
+            "precio": 0.2
+        },
+        "442": {
+            "ciudad": "Querétaro",
+            "pais": "México",
+            "precio": 0.12
+        },
+        "080": {
+            "ciudad": "Londres",
+            "pais": "Reino Unido",
+            "precio": 0.18
+        },
+        "033": {
+            "ciudad": "Madrid",
+            "pais": "España",
+            "precio": 0.16
+        },
+        "045": {
+            "ciudad": "Ciudad de México",
+            "pais": "México",
+            "precio": 0.14
+        },
+        "021": {
+            "ciudad": "Asunción",
+            "pais": "Paraguay",
+            "precio": 0.1
+        },
+        "503": {
+            "ciudad": "San Salvador",
+            "pais": "El Salvador",
+            "precio": 0.09
+        },
+        "055": {
+            "ciudad": "Río de Janeiro",
+            "pais": "Brasil",
+            "precio": 0.11
+        },
+        "071": {
+            "ciudad": "Santiago",
+            "pais": "Chile",
+            "precio": 0.12
+        },
+        "044": {
+            "ciudad": "Guadalajara",
+            "pais": "México",
+            "precio": 0.13
+        },
+        "081": {
+            "ciudad": "Manchester",
+            "pais": "Reino Unido",
+            "precio": 0.2
+        },
+        "066": {
+            "ciudad": "Barcelona",
+            "pais": "España",
+            "precio": 0.15
+        },
+        "504": {
+            "ciudad": "Tegucigalpa",
+            "pais": "Honduras",
+            "precio": 0.08
+        }
+    }
+}
