@@ -1,5 +1,10 @@
 {
     "prefijos": {
+        "598": {
+            "ciudad": "Montevideo",
+            "pais": "Uruguay",
+            "precio": 0.8
+        },
         "011": {
             "ciudad": "Buenos Aires",
             "pais": "Argentina",
@@ -16,7 +21,7 @@
             "precio": 0.2
         },
         "442": {
-            "ciudad": "Querétaro",
+            "ciudad": "Queretaro",
             "pais": "México",
             "precio": 0.12
         },
@@ -57,7 +62,7 @@
         },
         "044": {
             "ciudad": "Guadalajara",
-            "pais": "México",
+            "pais": "Mexico",
             "precio": 0.13
         },
         "081": {
@@ -75,5 +80,6 @@
             "pais": "Honduras",
             "precio": 0.08
         }
+        
     }
 }
